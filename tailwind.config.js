@@ -15,6 +15,9 @@ module.exports = {
         anton: "'Anton', serif",
         inter: "'Inter', serif", 
       },
+      backgroundImage: {
+        'optional-background': "url('/public/optional-background.svg')",
+      },
   },
 },
   plugins: [],

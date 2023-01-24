@@ -92,6 +92,7 @@ useEffect(() => {
 
   return (
     <div className="bg-primary min-h-screen h-full text-gray-100 flex items-center font-inter justify-center py-20 px-5">
+    {/* opción de fondo: bg-optional-background bg-no-repeat bg-cover */}
       <div>
         <Title />
         <TodoInput addTodo={addTodo}/>
